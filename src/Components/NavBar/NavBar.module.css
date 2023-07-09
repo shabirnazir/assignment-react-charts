@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c8bec;
+  height: 10vh;
+  padding: 0 2rem;
+  color: white;
+}
+.navItem {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
+  color: #1e1e1e;
+  padding: 0 1rem;
+  &:hover {
+    background-color: #0c8bec;
+    color: white;
+  }
+}
+.select {
+  width: 150px;
+  border-radius: 4px;
+}
